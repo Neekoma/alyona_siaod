@@ -1,0 +1,21 @@
+﻿  filemanager.cpp
+D:\mirea\работы\сиаод\Алена\3\siaod_3\siaod_3\hashmanager.h(78,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\mirea\работы\сиаод\Алена\3\siaod_3\siaod_3\hashmanager.h(74): message : во время компиляции функции-члена класс шаблон "void HashTable<std::string,Bank>::reallocTable(void)"
+D:\mirea\работы\сиаод\Алена\3\siaod_3\siaod_3\hashmanager.h(144): message : выполняется компиляция ссылки на экземпляр шаблон функции "void HashTable<std::string,Bank>::reallocTable(void)"
+D:\mirea\работы\сиаод\Алена\3\siaod_3\siaod_3\hashmanager.h(140): message : во время компиляции функции-члена класс шаблон "bool HashTable<std::string,Bank>::insert(K,V)"
+          with
+          [
+              K=std::string,
+              V=Bank
+          ]
+D:\mirea\работы\сиаод\Алена\3\siaod_3\siaod_3\filemanager.cpp(11): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool HashTable<std::string,Bank>::insert(K,V)"
+          with
+          [
+              K=std::string,
+              V=Bank
+          ]
+D:\mirea\работы\сиаод\Алена\3\siaod_3\siaod_3\filemanager.cpp(11): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "HashTable<std::string,Bank>"
+  main.cpp
+D:\mirea\работы\сиаод\Алена\3\siaod_3\siaod_3\main.cpp(105,48): warning C4244: аргумент: преобразование "__int64" в "int", возможна потеря данных
+  Создание кода...
+  siaod_3.vcxproj -> D:\mirea\работы\сиаод\Алена\3\siaod_3\Debug\siaod_3.exe

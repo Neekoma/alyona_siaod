@@ -1,0 +1,6 @@
+MireaBank 130-013 Москва 1
+Sberbank 001-102 Москва 0
+Sberbank2 100-201 Москва 1
+MoyBank 000-000 Нью-Йорк 1
+Kakoy-to_Bank 393-434 Уганда 0
+KudjBank 103-103 Москва 1
