@@ -231,30 +231,6 @@ inline bool HashTable<K, V>::remove(K k)
 	return true;
 }
 
-template<class K, class V>
-inline bool HashTable<K, V>::rehash()
-{
-	/*V* v;
-	size_t index;
-	for (int i = 0; i < tableSize; i++) {
-		v = values[i];
-		if (v != nullptr) {
-			index = hash(k);
-			if (values[index] == nullptr) {
-				values[index] = new V(v);
-				delete values[i];
-			}
-			else {
-				index = altHash(k);
-				if (values[index] == nullptr) {
-					values[index] = v;
-					delete values[i];
-				}
-			}
-		}
-	}
-	return false;*/
-}
 
 
 template<class K, class V>

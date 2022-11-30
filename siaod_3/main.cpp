@@ -113,7 +113,8 @@ void program(std::string datafile) {
 				for (size_t i = 0; i < hashTable.getTableSize(); i++) {
 					if (hashTable.values[i] != nullptr) {
 						auto v = hashTable.values[i];
-						std::cout << v->title << " | " << v->code << " | " << v->address << ((v->owner == 0) ? " | Гос." : " | Частн.") << std::endl;
+						if(v->owner != - 1)
+							std::cout << v->title << " | " << v->code << " | " << v->address << ((v->owner == 0) ? " | Гос." : " | Частн.") << std::endl;
 					}
 				}
 			}

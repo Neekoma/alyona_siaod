@@ -22,7 +22,6 @@ bool writeBinFile(std::string filename, HashTable<std::string, Bank>* table) {
 		exit(-1);
 	}
 
-	//std::vector<Bank> banks;
 	Bank* banks = new Bank[table->getTableSize()];
 
 	for (size_t i = 0; i < table->getTableSize(); i++) {
